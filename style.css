@@ -1,0 +1,58 @@
+body{
+
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'nav nav nav nav';
+    grid-template-rows: 20vh 15vh 50vh 30vh;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+nav {
+
+    grid-area: nav;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family:  'Unica One', cursive;
+    align-items: center;
+    height: 80px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover{
+    color: rgb(247, 229, 70);
+    font-weight: 800;
+    font-style: bolder;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+.bolsa-compra{
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+}
+
+.usuario{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+
+}
