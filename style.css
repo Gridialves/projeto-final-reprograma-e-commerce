@@ -1,31 +1,36 @@
 body{
-
     margin: 0;
-    display: grid;
-    grid-template-areas: 'header header header header'
-                        'nav nav nav nav'
-                        'section section section section'
-                        'footer footer footer footer';
-    grid-template-rows: 10vh 10vh 70vh 10vh;
-    grid-template-columns: 25% 25% 25% 25%;
-
 }
-nav {
 
-    grid-area: nav;
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3vh;
+}
+
+nav ul{
     background-color: white;
     display: flex;
     justify-content: space-around;
     font-family:  'Unica One', cursive;
     align-items: center;
-    height: 80px;
-    
+    width: 100%;
+}
+
+nav li {
+   list-style: none; 
 }
 
 nav a{
     text-decoration: none;
     color: black;
-
 }
 
 nav a:hover{
@@ -35,14 +40,9 @@ nav a:hover{
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 250px;
-    height: 250px;
-    margin-right: 20px;
-    margin-top: 15px;
+    width: 70px;
+    height: 70px;
 }
-
 
 .bolsa-compra{
     display: inline-block;
@@ -52,18 +52,15 @@ nav a:hover{
 }
 
 .usuario{
-
     display: inline-block;
     vertical-align: top;
     width: 20px;
     height: 20px;
-
 }
 
-/*--------------------- -----------------------CAROUSEL----------------------------------------------*/
+/* /--------------------- -----------------------CAROUSEL----------------------------------------------/ */
 
 section{
-    grid-area: section;
     display: block;
     justify-content: space-around;
     align-items: center;
@@ -187,5 +184,12 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 	opacity: 1;
 }
 
+.shop img {
+    width: 100px;
+}
 
-
+.shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
