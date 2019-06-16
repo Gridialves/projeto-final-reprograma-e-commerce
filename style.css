@@ -2,9 +2,13 @@ body{
     margin: 0;
 }
 
-nav {
+.navigation-bar {
     display: flex;
     flex-direction: row;
+    margin-top: 25px;
+    background-color: white;
+
+
 }
 
 nav div{
@@ -49,6 +53,7 @@ nav a:hover{
     vertical-align: top;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .usuario{
@@ -56,15 +61,10 @@ nav a:hover{
     vertical-align: top;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 /* /--------------------- -----------------------CAROUSEL----------------------------------------------/ */
-
-section{
-    display: block;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .carousel {
     margin: 0%;
@@ -150,19 +150,19 @@ ul.slides input {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 20px;
+    bottom: 87px;
     z-index: 999;
     text-align: center;
 }
 
 .carousel-dots .carousel-dot {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color:  rgb(247, 229,70);
     opacity: 0.5;
-    margin: 10px;
+    margin: 5px;
 }
 
 input:checked + .slide-container .slide-image {
@@ -184,12 +184,12 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 	opacity: 1;
 }
 
-.shop img {
-    width: 100px;
+.section_shop {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
 }
 
-.shop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.shop img {
+    width: 400px;
 }
