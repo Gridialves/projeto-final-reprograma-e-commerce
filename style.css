@@ -193,3 +193,53 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 .shop img {
     width: 400px;
 }
+
+/* ---------------------footer---------------- */
+
+footer{
+
+    background-color: rgb(255, 255, 152);
+    height: 200px;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 5.5pt;
+}
+
+.pagamento{
+ flex-direction: column;
+}
+
+#logo-footer{
+
+    align-items: center;
+}
+
+#logo-footer img{  
+    width: 100px;  
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+
+footer div img{
+    width: 20px;
+    padding: 0px 5px;
+}
+
+.logo-redes{
+    justify-content: flex-end;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.logo-redes a{
+    list-style: none;
+    text-decoration: none;
+}
