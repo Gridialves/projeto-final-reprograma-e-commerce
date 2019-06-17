@@ -5,17 +5,18 @@ body{
 .navigation-bar {
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
-    background-color: white;
-
-
-}
-
-nav div{
-    display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    z-index: 3;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.rolagem{
+    display: flex;
+    flex-direction: row;
     margin-right: 3vh;
 }
 
@@ -26,6 +27,7 @@ nav ul{
     font-family:  'Unica One', cursive;
     align-items: center;
     width: 100%;
+    margin: 0;
 }
 
 nav li {
@@ -50,7 +52,6 @@ nav a:hover{
 
 .bolsa-compra{
     display: inline-block;
-    vertical-align: top;
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -58,7 +59,6 @@ nav a:hover{
 
 .usuario{
     display: inline-block;
-    vertical-align: top;
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -151,7 +151,7 @@ ul.slides input {
     left: 0;
     right: 0;
     bottom: 87px;
-    z-index: 999;
+    z-index: 1;
     text-align: center;
 }
 
