@@ -118,5 +118,29 @@ footer div img{
 
 
 #nos{
- 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%; 
+ position: relative;
+}
+
+/* --------------------------TEXTO-------------------------------- */
+
+section div h1{
+    font-size: 25pt;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(221, 29, 29);
+}
+
+section div p{
+ font-size: 12pt;
+ font-family: 'Oswald', sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
 }
