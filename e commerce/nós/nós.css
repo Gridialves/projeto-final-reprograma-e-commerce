@@ -1,7 +1,12 @@
 body{
     margin: 0;
+    
 }
 
+.section-nav{
+    min-height: 500px;
+    background: url("./assets/nós.jpg") no-repeat;
+}
 .navigation-bar {
     display: flex;
     flex-direction: row;
@@ -9,9 +14,8 @@ body{
     align-items: center;
     position: fixed;
     z-index: 3;
-    height: 100px;
     width: 100%;
-    background-color: white;
+   
 }
 
 .rolagem{
@@ -21,7 +25,6 @@ body{
 }
 
 nav ul{
-    background-color: white;
     display: flex;
     justify-content: space-around;
     font-family:  'Unica One', cursive;
@@ -116,7 +119,6 @@ footer div img{
 
 /* -----------------------------FOTO PRINCIPAL------------------- */
 
-
 #nos{
  display: flex;
  justify-content: center;
@@ -127,6 +129,15 @@ footer div img{
 
 /* --------------------------TEXTO-------------------------------- */
 
+.texto-apiz{
+    background-color: rgb(224, 224, 215);
+    height: 1000px;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    font-family: 'Oswald', sans-serif;
+
+}
 section div h1{
     font-size: 25pt;
     align-items: center;
@@ -143,4 +154,5 @@ section div p{
  align-items: center;
  justify-content: center;
  text-align: center;
+ display: block;
 }
