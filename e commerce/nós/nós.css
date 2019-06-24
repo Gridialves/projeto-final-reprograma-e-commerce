@@ -6,6 +6,10 @@ body{
 .section-nav{
     min-height: 500px;
     background: url("./assets/nós.jpg") no-repeat;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
 }
 .navigation-bar {
     display: flex;
@@ -15,7 +19,7 @@ body{
     position: fixed;
     z-index: 3;
     width: 100%;
-   
+    
 }
 
 .rolagem{
@@ -34,7 +38,7 @@ nav ul{
 }
 
 nav li {
-   list-style: none; 
+    list-style: none; 
 }
 
 nav a{
@@ -70,7 +74,7 @@ nav a:hover{
 
 /* ------------------------------------------------FOOTER------------------------------------------------------------ */
 footer{
-
+    
     background-color: rgb(255, 255, 152);
     height: 200px;
     display: flex;
@@ -82,11 +86,11 @@ footer{
 }
 
 .pagamento{
- flex-direction: column;
+    flex-direction: column;
 }
 
 #logo-footer{
-
+    
     align-items: center;
 }
 
@@ -117,15 +121,6 @@ footer div img{
     text-decoration: none;
 }
 
-/* -----------------------------FOTO PRINCIPAL------------------- */
-
-#nos{
- display: flex;
- justify-content: center;
- align-items: center;
- width: 100%; 
- position: relative;
-}
 
 /* --------------------------TEXTO-------------------------------- */
 
@@ -136,7 +131,8 @@ footer div img{
     -webkit-align-items: center;
     -webkit-justify-content: center;
     font-family: 'Oswald', sans-serif;
-
+    position: relative;
+    
 }
 section div h1{
     font-size: 25pt;
@@ -148,11 +144,11 @@ section div h1{
 }
 
 section div p{
- font-size: 12pt;
- font-family: 'Oswald', sans-serif;
- display: flex;
- align-items: center;
- justify-content: center;
- text-align: center;
- display: block;
+    font-size: 12pt;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
 }
