@@ -1,11 +1,16 @@
 body{
     margin: 0;
-    
+}
+
+.section-nav{
+    background-image: url(./assets/nós2.jpg);
+    background-size: cover;
+
+
 }
 
 .section-nav{
     min-height: 500px;
-    background: url("./assets/nós.jpg") no-repeat;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -76,7 +81,7 @@ nav a:hover{
 footer{
     
     background-color: rgb(255, 255, 152);
-    height: 200px;
+    height: 195px;
     display: flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
@@ -128,9 +133,10 @@ footer div img{
     background-color: rgb(224, 224, 215);
     height: 1000px;
     display: flex;
+    align-items: initial;
     -webkit-align-items: center;
     -webkit-justify-content: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'B612 Mono', monospace;
     position: relative;
     
 }
@@ -139,16 +145,16 @@ section div h1{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'B612 Mono', monospace;
     color: rgb(221, 29, 29);
 }
 
 section div p{
     font-size: 12pt;
-    font-family: 'Oswald', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;
+    font-family: 'B612 Mono', monospace;
+    line-height: 30px;
+}
+
+#container{
+    width: 60%;
 }
