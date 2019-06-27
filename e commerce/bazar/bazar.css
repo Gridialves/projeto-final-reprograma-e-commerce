@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.rolagem{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3vh;
+}
+
+nav ul{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family:  'Unica One', cursive;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+nav li {
+    list-style: none; 
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(247, 229, 70);
+    font-weight: 800;
+    font-style: bolder;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.bolsa-compra{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.usuario{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+section div {
+    background-color: rgb(255, 255, 152);
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+
+section{
+    display: inherit;
+    justify-content: center;
+    width: 80%;
+    margin: 0;
+}
+
+#foto1{
+    background-image: url(./assets/roupa-1.jpg);
+    background-size: cover;
+}
+
+#foto1:hover{
+    background-image: url(./assets/roupa-2.jpg);
+    background-size: cover;
+    
+} 
+
+#foto2{
+    background-image: url(./assets/roupa-3.jpg);
+    background-size: cover;
+}
+
+#foto2:hover{
+    background-image: url(./assets/roupa-4.jpg);
+    background-size: cover;
+}
+
+#foto3{
+    background-image: url(./assets/roupa-8.jpg);
+    background-size: cover;
+}
+
+#foto3:hover{
+    background-image: url(./assets/foto-7-substituir.jpg);
+    background-size: cover;
+}
+#foto4{
+    background-image: url(./assets/roupa-11.jpg);
+    background-size: cover;
+}
+#foto4:hover{
+    background-image: url(./assets/roupa-12.jpg);
+    background-size: cover;
+}
+
+#foto5{
+    background-image: url(./assets/roupa-13.jpg);
+    background-size: cover;
+}
+#foto5:hover{
+    background-image: url(./assets/roupa-14.jpg);
+    background-size: cover;
+}
+#foto6{
+    background-image: url(./assets/roupa-15.jpg);
+    background-size: cover;
+}
+#foto6:hover{
+    background-image: url(./assets/roupa-16.jpg);
+    background-size: cover;
+}
+#foto7{
+    background-image: url(./assets/roupa-17.jpg);
+    background-size: cover;
+}
+#foto7:hover{
+    background-image: url(./assets/roupa-18.jpg);
+    background-size: cover;
+}
+#foto8{
+    background-image: url(./assets/roupa-19.jpg);
+    background-size: cover;
+}
+#foto8:hover{
+    background-image: url(./assets/foto-20.jpg);
+    background-size: cover;
+}
+#foto9{
+    background-image: url(./assets/foto-22.jpg);
+    background-size: cover;
+}
+#foto9:hover{
+    background-image: url(./assets/foto-23.jpg);
+    background-size: cover;
+}
+footer{
+    
+    background-color: rgb(255, 255, 152);
+    height: 200px;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 5.5pt;
+}
+
+.pagamento{
+    flex-direction: column;
+}
+
+#logo-footer{
+    
+    align-items: center;
+}
+
+#logo-footer img{  
+    width: 100px;  
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+
+footer div img{
+    width: 20px;
+    padding: 0px 5px;
+}
+
+.logo-redes{
+    justify-content: flex-end;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.logo-redes a{
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
