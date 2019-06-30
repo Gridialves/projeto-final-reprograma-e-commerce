@@ -7,8 +7,6 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
-    z-index: 3;
     height: 100px;
     width: 100%;
     background-color: white;
