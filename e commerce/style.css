@@ -118,7 +118,7 @@ ul.slides input {
     z-index: 1;
     font-size: 100px;
     line-height: 600px;
-    color: rgb(247, 229,70)
+    color: black;
 }
 
 .carousel-controls label {
@@ -164,7 +164,7 @@ ul.slides input {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color:  rgb(247, 229,70);
+    background-color:  rgb(124, 114, 114);
     opacity: 0.5;
     margin: 5px;
 }
