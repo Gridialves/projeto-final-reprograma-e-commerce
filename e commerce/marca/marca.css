@@ -177,6 +177,10 @@ footer div img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;   
+    opacity: 0.7;
+}
+
+#foto{
 }
 
 
