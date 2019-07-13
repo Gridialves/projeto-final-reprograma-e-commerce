@@ -130,7 +130,7 @@ footer div img{
 /* --------------------------TEXTO-------------------------------- */
 
 .texto-apiz{
-    background-color: rgb(224, 224, 215);
+    background-color: white;
     height: 1000px;
     display: flex;
     align-items: initial;
@@ -146,7 +146,6 @@ section div h1{
     justify-content: center;
     display: flex;
     font-family: 'B612 Mono', monospace;
-    color: rgb(221, 29, 29);
 }
 
 section div p{
