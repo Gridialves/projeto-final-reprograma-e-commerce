@@ -18,3 +18,5 @@ botaoDelete.addEventListener('click', () => {
             console.log(erro)
         })
 })
+
+

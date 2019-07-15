@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    height: 400%;
 }
 
 .navigation-bar {
@@ -115,6 +116,7 @@ footer div img{
     justify-content: flex-end;
     flex-direction: column;
     display: inline-block;
+    margin: 4rem 0 0 0px;
 }
 
 .logo-redes a{
